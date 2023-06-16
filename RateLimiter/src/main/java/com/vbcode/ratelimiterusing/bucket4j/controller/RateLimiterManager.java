@@ -9,9 +9,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class RateLimiterManager {
-    private static final long LIMIT = 10; // Maximum number of requests per time unit
+    private static final long LIMIT = 5; // Maximum number of requests per time unit
     private static final Duration TIME_UNIT = Duration.ofSeconds(1); // Time unit for rate limiting
-    private static final Duration BLOCK_DURATION = Duration.ofMinutes(5); // Duration to block IP address
+    private static final Duration BLOCK_DURATION = Duration.ofMinutes(1); // Duration to block IP address
     private static final Map<String, LocalBucket> rateLimiters = new ConcurrentHashMap<>();
     private static final Map<String, Long> blockedIPs = new ConcurrentHashMap<>();
 
