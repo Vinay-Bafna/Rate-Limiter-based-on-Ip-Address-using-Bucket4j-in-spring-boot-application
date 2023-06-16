@@ -1,5 +1,5 @@
 # Rate-Limiter-based-on-Ip-Address-using-Bucket4j-in-spring-boot-application
-Follow following steps to validate functionality:
+Follow following steps to validate functionality: (Application Used for Validation is Apache Jmeter.)
 
 Step 1: Create group thread as screenshot below as reference.
 ![ratelimiting 1](https://github.com/Vinay-Bafna/Rate-Limiter-based-on-Ip-Address-using-Bucket4j-in-spring-boot-application/assets/55124298/08319882-0167-4256-9f19-bb3b4da21b2a)
