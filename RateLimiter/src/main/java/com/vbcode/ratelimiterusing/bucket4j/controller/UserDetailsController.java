@@ -15,7 +15,7 @@ public class UserDetailsController {
 
         public UserDetails UserDetailsController(Integer id){
                 List<UserDetails> userDetails= new ArrayList<>();
-                userDetails.add(new UserDetails(1,"Vinay","Bafna"));
+                userDetails.add(new UserDetails(1,"Shubham","Shinde"));
                 userDetails.add(new UserDetails(2,"Mangesh","Chaudhari"));
                 userDetails.add(new UserDetails(4,"Sameer","Maheshwari"));
                 for(UserDetails user: userDetails){
